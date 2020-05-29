@@ -1,0 +1,140 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.title-1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title-2 {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px
+}
+
+.p {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+#header {
+  background: url("resources/aboboras.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  color: #543412;
+}
+
+#section-1 {  
+  padding: 50px;
+  color: #7b6650;
+  background-color: #efcbb2;
+}
+
+#section-2 {
+  padding: 50px;
+  color: #7b6650;
+  background-color: white; 
+}
+
+#section-3 {
+  padding: 50px;
+  background-color: #efcbb2;
+  color: #7b6650;
+}
+
+#section-4 {
+  padding: 50px;
+  background-color: white;
+  color: #7b6650;
+}
+
+.section-3-image {
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+  margin-right: 30px;
+}
+
+.section-3-text {
+  padding: 20px;
+/*  background-color: #417014;*/
+  border: 10px solid #e2c778;
+}
+
+.section-3-text h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #d16a30;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.section-4-image-1 {
+  background-image: url("resources/entrega1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 600px;
+  width: 50%;
+}
+.section-4-image-2 {
+  background-image: url("resources/img-4.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 400px;
+  width: 50%;
+}
+
+.section-4-image-3 {
+  background-image: url("resources/entrega2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 600px;
+  width: 50%;
+}
+.section-4-image-4 {
+  background-image: url("resources/img3.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 400px;
+  width: 50%;
+}
+
+.content-center {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.content-2-columns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: #efcbb2;
+  color: #7b6650;
+}
+
+footer div {
+  padding: 50px;
+}
+
+.logo img {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  height: 150px;
+  width: 150px;
+}
