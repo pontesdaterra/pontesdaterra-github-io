@@ -21,9 +21,27 @@ section {
 }
 
 .p {
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 25px;
+  line-height: 1.5;
 }
+
+.btn {
+  display: inline-table;
+  margin-top: 40px;
+  padding: 15px;
+  border-radius: 8%;
+  font-size: 25px;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  background-color: #4b553a;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #d68162;
+} 
 
 #header {
   background: url("resources/folha01.png");
@@ -246,7 +264,7 @@ footer div {
     font-size: 28px;
   }
   .title-2 {
-    font-size: 24px;
+    font-size: 26px;
   }
   .title-1 {
     font-size: 45px;
@@ -259,6 +277,9 @@ footer div {
   }
 }
 @media screen and (max-width: 600px) {
+  #header {
+    background-position: bottom;
+  }
   iframe {
     width: 400px !important;
   }
@@ -267,6 +288,11 @@ footer div {
   .content-row {
     justify-content: center;
   }
+  .content-row img {
+    width: 90%;
+    margin-right: 0;
+  }
+
   iframe {
     width: 340px !important;
   }
