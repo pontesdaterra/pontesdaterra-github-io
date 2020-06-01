@@ -60,17 +60,41 @@ section {
 }
 */
 
-.pagseguro {
+.dflex {
   margin-top: 40px;
-}
 
-.pagseguro h3 {
+}
+/*.pagseguro {
+}*/
+
+.dflex h3 {
   font-size: 20px;
   font-weight: bold;
   color: #4b553a;
   margin-bottom: 10px;
 }
 
+.picpay img {
+  width: auto;
+  height: 30px;
+  display: block;
+
+}
+
+.btn-picpay {
+  text-decoration: none;
+  font-style: italic;
+  padding: 4px;
+  background-color: #55c870;
+  color: white;
+  display: block;
+  width: 100px;
+  margin-bottom: 3px;
+  border-radius: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
 
 #section-1 {
   background: url("resources/folha03.png");
@@ -109,8 +133,8 @@ section {
 #section-5 {
   background: url("resources/bolota02_separada.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
+  background-size: auto;
+  background-position: top;
   background-color: #4b553a;
 }
 
@@ -230,8 +254,13 @@ footer div {
   position: absolute;
   top: 20px;
   left: 50px;
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
+}
+
+.dflex {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 800px) {
@@ -270,10 +299,10 @@ footer div {
     font-size: 45px;
   }
   .logo img {
-    height: 100px;
-    width: 100px;
-    top: 15px;
-    left: 30px;
+    height: 120px;
+    width: 120px;
+    top: 0px;
+    left: 0px;
   }
 }
 @media screen and (max-width: 600px) {
