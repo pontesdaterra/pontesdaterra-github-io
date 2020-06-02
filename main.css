@@ -20,6 +20,14 @@ section {
   margin-bottom: 15px
 }
 
+.title-3 {
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+.link-externo {
+  color: #734915;
+}
 .p {
   font-size: 25px;
   line-height: 1.5;
@@ -131,13 +139,15 @@ section {
 }
 
 #section-5 {
-  background: url("resources/bolota02_separada.png");
+/*  background: url("resources/bolota02_separada.png");
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: top;
+  background-position: top;*/
   background-color: #4b553a;
 }
-
+#section-5 iframe {
+  width: 100%;
+}
 .section-3-image {
   max-width: 450px;
   width: 100%;
@@ -208,7 +218,6 @@ section {
 
 .content-2-columns {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -241,13 +250,17 @@ footer {
   background-image: url("resources/folha02.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position: left;
   background-color: #efe9db;
   color: #7b6650;
 }
 
 footer div {
   padding: 50px;
+}
+
+footer span {
+  font-weight: bold;
 }
 
 .logo img {
@@ -311,6 +324,9 @@ footer div {
   }
   iframe {
     width: 400px !important;
+  }
+  footer div:last-child {
+    padding-top: 0px;
   }
 }
 @media screen and (max-width: 470px) {
