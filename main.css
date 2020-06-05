@@ -54,7 +54,8 @@ section {
 } 
 
 #header {
-  background: url("resources/Capa_01.png");
+  background: url("resources/Capa_web_03.jpg");
+  line-height: 1.2;
   background-color: #eec9b7;
   background-repeat: no-repeat;
   background-position: right;
@@ -147,8 +148,16 @@ section {
   background-position: top;*/
   background-color: #4b553a;
 }
+
+#section-5 .content-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 #section-5 iframe {
-  width: 100%;
+  /*width: 100%;*/
+  height: 315px;
 }
 .section-3-image {
   max-width: 450px;
@@ -221,6 +230,7 @@ section {
 .content-2-columns {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .content-2-columns div:first-child {
@@ -257,6 +267,10 @@ footer {
   color: #7b6650;
 }
 
+footer p {
+  font-size: 22px;
+}
+
 footer div {
   padding: 50px;
 }
@@ -281,6 +295,19 @@ footer span {
 .dflex {
   display: flex;
   justify-content: space-between;
+}
+
+.desenvolvimento {
+  margin-top: 40px;
+  font-size: 16px;
+  color: #7b6650;
+  font-style: none;
+}
+
+.desenvolvimento a {
+  font-style: normal;
+  color: #7b6650;
+  text-decoration: none;
 }
 
 .html5-video-player:not(.ytp-transparent) {
@@ -336,18 +363,28 @@ footer span {
     left: 0px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1090px) {
   #header {
-    background-position: bottom;
+    /*background-size: contain;*/
   }
-  iframe {
-    width: 400px !important;
+
+  footer div:last-child {
+    padding-top: 0px;
   }
+}
+@media screen and (max-width: 600px) {
+
+  #header {
+    background-size: cover;
+    background-image: url("resources/Capa_mobile.jpg");
+  }
+
   footer div:last-child {
     padding-top: 0px;
   }
 }
 @media screen and (max-width: 470px) {
+  }
   .content-row {
     justify-content: center;
   }
@@ -357,11 +394,12 @@ footer span {
   }
 
   iframe {
-    width: 340px !important;
+    width: 311px !important;
+    height: 175px !important;
   }
 }
 @media screen and (max-width: 400px) {
   iframe {
-    width: 250px !important;
+    /*width: 250px !important;*/
   }
 }
