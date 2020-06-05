@@ -156,7 +156,7 @@ section {
   justify-content: center;
 }
 #section-5 iframe {
-  /*width: 100%;*/
+  width: 560px;
   height: 315px;
 }
 .section-3-image {
@@ -363,17 +363,8 @@ footer span {
     left: 0px;
   }
 }
-@media screen and (max-width: 1090px) {
-  #header {
-    /*background-size: contain;*/
-  }
 
-  footer div:last-child {
-    padding-top: 0px;
-  }
-}
 @media screen and (max-width: 600px) {
-
   #header {
     background-size: cover;
     background-image: url("resources/Capa_mobile.jpg");
@@ -383,8 +374,7 @@ footer span {
     padding-top: 0px;
   }
 }
-@media screen and (max-width: 470px) {
-  }
+@media screen and (max-width: 500px) {
   .content-row {
     justify-content: center;
   }
@@ -392,14 +382,8 @@ footer span {
     width: 90%;
     margin-right: 0;
   }
-
   iframe {
     width: 311px !important;
     height: 175px !important;
-  }
-}
-@media screen and (max-width: 400px) {
-  iframe {
-    /*width: 250px !important;*/
   }
 }
