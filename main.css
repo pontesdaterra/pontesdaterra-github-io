@@ -268,7 +268,7 @@ section {
   justify-content: space-between;
 }
 .content-row img {
-  width: 22%;
+  /*width: 22%;*/
   max-width: 300px;
   min-width: 200px;
   height: auto;
