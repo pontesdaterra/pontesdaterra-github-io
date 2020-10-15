@@ -396,7 +396,7 @@ footer span {
     justify-content: center;
   }
   .content-row img {
-    width: 90%;
+    /*width: 90%;*/
     margin-right: 0;
   }
   iframe {
