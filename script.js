@@ -14,6 +14,10 @@ function setUp() {
   });
 }
 
+function redirect() {
+  window.loaction.href = "https://pontesdaterra.org/";
+}
+
 // $('.nav a[href^="#"]').on('click', function(e) {
 //   e.preventDefault();
 //   var id = $(this).attr('href'),
@@ -25,3 +29,4 @@ function setUp() {
 // });
 
 window.onload = setUp;
+window.onload = redirect;
