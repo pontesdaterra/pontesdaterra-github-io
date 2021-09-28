@@ -30,5 +30,5 @@ redirect();
 //   }, 500);
 // });
 
-window.onload = setUp;
+window.onload = redirect;
 
