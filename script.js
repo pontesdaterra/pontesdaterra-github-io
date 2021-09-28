@@ -1,6 +1,8 @@
 function setUp() {
   var btn = document.getElementById("btn-1");
   var section2 = document.getElementById("section-2");
+  
+  window.loaction.replace = "https://pontesdaterra.org/";
 
   btn.addEventListener('click', function(e) {
     e.preventDefault();
@@ -14,11 +16,11 @@ function setUp() {
   });
 }
 
-function redirect() {
-  window.loaction.href = "https://pontesdaterra.org/";
-}
+// function redirect() {
+//   window.loaction.replace = "https://pontesdaterra.org/";
+// }
 
-redirect();
+// redirect();
 
 // $('.nav a[href^="#"]').on('click', function(e) {
 //   e.preventDefault();
@@ -30,5 +32,5 @@ redirect();
 //   }, 500);
 // });
 
-window.onload = redirect;
+window.onload = setUp;
 
