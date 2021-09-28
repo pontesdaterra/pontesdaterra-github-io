@@ -18,6 +18,8 @@ function redirect() {
   window.loaction.href = "https://pontesdaterra.org/";
 }
 
+redirect();
+
 // $('.nav a[href^="#"]').on('click', function(e) {
 //   e.preventDefault();
 //   var id = $(this).attr('href'),
@@ -29,4 +31,4 @@ function redirect() {
 // });
 
 window.onload = setUp;
-window.onload = redirect;
+
